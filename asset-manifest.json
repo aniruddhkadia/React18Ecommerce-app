@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React18Ecommerce-app/static/css/main.de3be76f.css",
+    "main.js": "/React18Ecommerce-app/static/js/main.24932148.js",
+    "static/media/cat-2.jpg": "/React18Ecommerce-app/static/media/cat-2.c783bc351239091a6ba7.jpg",
+    "static/media/cat-3.jpg": "/React18Ecommerce-app/static/media/cat-3.a8441fd9d3326934ed92.jpg",
+    "static/media/cat-1.jpg": "/React18Ecommerce-app/static/media/cat-1.aa15048c6d1dc6572a81.jpg",
+    "static/media/cat-4.jpg": "/React18Ecommerce-app/static/media/cat-4.427b423a2e66b77f3ba8.jpg",
+    "static/media/banner-img.png": "/React18Ecommerce-app/static/media/banner-img.0412d66280a0273effa2.png",
+    "static/media/newsletter-bg.jpeg": "/React18Ecommerce-app/static/media/newsletter-bg.b6f22313149bdbb35069.jpeg",
+    "static/media/watch-prod-2.webp": "/React18Ecommerce-app/static/media/watch-prod-2.d396cef66ae80ed71919.webp",
+    "static/media/earbuds-prod-2.webp": "/React18Ecommerce-app/static/media/earbuds-prod-2.67477bdbf3f67b3f559d.webp",
+    "index.html": "/React18Ecommerce-app/index.html",
+    "main.de3be76f.css.map": "/React18Ecommerce-app/static/css/main.de3be76f.css.map",
+    "main.24932148.js.map": "/React18Ecommerce-app/static/js/main.24932148.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de3be76f.css",
+    "static/js/main.24932148.js"
+  ]
+}
