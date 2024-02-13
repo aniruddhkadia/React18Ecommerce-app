@@ -12,9 +12,7 @@ const Search = ({ setSearchModal }) => {
         setQuery(e.target.value);
     };
 
-    let { data } = useFetch(
-        `/api/products?populate=*&filters[title][$contains]=${query}`
-    );
+    let { data } = useFetch(`/api/products?populate=*&filters[title][$contains]=${query}`);
 
     if (!query.length) {
         data = null;
@@ -35,6 +33,7 @@ const Search = ({ setSearchModal }) => {
                     onClick={() => setSearchModal(false)}
                 />
             </div>
+
             <div className="search-result-content">
                 {!data?.data?.length && (
                     <div className="start-msg">
@@ -55,8 +54,8 @@ const Search = ({ setSearchModal }) => {
                                 <img
                                     src={
                                         process.env
-                                            .REACT_APP_STRIPE_APP_DEV_URL +
-                                        item.attributes.image.data[0].attributes
+                                            .REACT_APP_DEV_URL +
+                                        item.attributes.img.data[0].attributes
                                             .url
                                     }
                                 />
@@ -66,7 +65,7 @@ const Search = ({ setSearchModal }) => {
                                     {item.attributes.title}
                                 </span>
                                 <span className="desc">
-                                    {item.attributes.description}
+                                    {item.attributes.desc}
                                 </span>
                             </div>
                         </div>

@@ -39,7 +39,7 @@ const Header = () => {
                         <li>Categories</li>
                     </ul>
                     <div className="center" onClick={() => navigate("/")}>
-                        JSDEVSTORE.
+                        BIGKART
                     </div>
                     <div className="right">
                         <TbSearch onClick={() => setSearchModal(true)} />
@@ -55,7 +55,7 @@ const Header = () => {
                 </div>
             </header>
             {searchModal && <Search setSearchModal={setSearchModal} />}
-            {showCart && <Cart  />}
+            {showCart && <Cart />}
         </>
     );
 };

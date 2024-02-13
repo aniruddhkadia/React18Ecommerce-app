@@ -9,6 +9,10 @@ import SingleProduct from "./components/SingleProduct/SingleProduct";
 import Newsletter from "./components/Footer/Newsletter/Newsletter";
 import AppContext from "./utils/context";
 
+
+import About from "./components/Pages/About";
+import Success from "./components/Pages/Success";
+
 function App() {
     return (
         <BrowserRouter>
@@ -18,6 +22,11 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/category/:id" element={<Category />} />
                     <Route path="/product/:id" element={<SingleProduct />} />
+
+
+                    <Route path="/about" element={<About />} />
+                    <Route path="/success" element={<Success />} />
+
                 </Routes>
                 <Newsletter />
                 <Footer />

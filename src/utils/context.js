@@ -63,11 +63,11 @@ const AppContext = ({ children }) => {
     return (
         <Context.Provider
             value={{
+                categories,
+                setCategories,  
                 products,
                 setProducts,
-                categories,
-                setCategories,
-                cartItems,
+                
                 setCartItems,
                 handleAddToCart,
                 cartCount,
@@ -76,6 +76,10 @@ const AppContext = ({ children }) => {
                 setShowCart,
                 handleCartProductQuantity,
                 cartSubTotal,
+
+                cartItems,
+              
+
             }}
         >
             {children}
